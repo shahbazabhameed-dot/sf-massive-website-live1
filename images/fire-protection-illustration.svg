@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Fire protection system illustration</title>
+  <desc id="desc">Illustrative schematic of building fire-protection pipework, sprinklers, and a hydrant connection.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#28666C"/><stop offset="1" stop-color="#102D37"/></linearGradient>
+    <linearGradient id="pipe" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#f0bd6b"/><stop offset="1" stop-color="#c98132"/></linearGradient>
+  </defs>
+  <rect width="960" height="620" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"><path d="M60 100h840M60 210h840M60 320h840M60 430h840M60 540h840"/><path d="M120 55v510M300 55v510M480 55v510M660 55v510M840 55v510"/></g>
+  <g fill="none" stroke="url(#pipe)" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="24" d="M145 148h670M230 148v130m250-130v130m250-130v130"/>
+    <path stroke-width="15" d="M230 278h500M350 278v94m260-94v94"/>
+  </g>
+  <g fill="#56B6A7" stroke="#E9F2EF" stroke-width="4">
+    <path d="M210 278h40l-6 28h-28zM460 278h40l-6 28h-28zM710 278h40l-6 28h-28z"/>
+    <path d="M330 372h40l-6 28h-28zM590 372h40l-6 28h-28z"/>
+  </g>
+  <g fill="none" stroke="#d9e8e1" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M145 148V420h110v77M815 148v220h-95v91"/>
+  </g>
+  <g fill="#56B6A7" stroke="#E9F2EF" stroke-width="5">
+    <path d="M204 482h98v52h-98zM225 438h56v44h-56z"/><path d="M231 426h44v18h-44z"/>
+    <path d="M674 431h94v49h-94zM693 393h56v38h-56z"/><path d="M701 382h40v17h-40z"/>
+  </g>
+  <g fill="#13333D" font-family="Arial,sans-serif" font-weight="700" font-size="16" letter-spacing="2"><text x="88" y="92">FIRE-PROTECTION PIPEWORK</text><text x="736" y="575">ILLUSTRATIVE</text></g>
+  <g fill="#d5e2dc" font-family="Arial,sans-serif" font-size="13" letter-spacing="1"><text x="160" y="570">SPRINKLER &amp; HYDRANT INTERFACES</text></g>
+</svg>
