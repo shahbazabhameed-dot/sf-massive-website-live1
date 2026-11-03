@@ -1,5 +1,9 @@
 "use strict";
 
+const isArabic = (document.documentElement.lang || "").toLowerCase().startsWith("ar");
+const openLabel = isArabic ? "فتح القائمة" : "Open navigation menu";
+const closeLabel = isArabic ? "إغلاق القائمة" : "Close navigation menu";
+
 const menuToggle = document.getElementById("menu-toggle");
 const mobileMenu = document.getElementById("mobile-menu");
 
@@ -7,7 +11,7 @@ if (menuToggle && mobileMenu) {
   menuToggle.addEventListener("click", () => {
     const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
     menuToggle.setAttribute("aria-expanded", String(!isOpen));
-    menuToggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
+    menuToggle.setAttribute("aria-label", isOpen ? openLabel : closeLabel);
     mobileMenu.hidden = isOpen;
   });
 
@@ -15,7 +19,7 @@ if (menuToggle && mobileMenu) {
     link.addEventListener("click", () => {
       mobileMenu.hidden = true;
       menuToggle.setAttribute("aria-expanded", "false");
-      menuToggle.setAttribute("aria-label", "Open navigation menu");
+      menuToggle.setAttribute("aria-label", openLabel);
     });
   });
 }
