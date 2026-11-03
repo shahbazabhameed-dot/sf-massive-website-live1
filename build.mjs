@@ -10,6 +10,7 @@ const publicFiles = [
   "assets",
   "images",
   "services",
+  "ar",
 ];
 
 await rm("dist", { recursive: true, force: true });
